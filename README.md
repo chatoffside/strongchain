@@ -33,7 +33,9 @@ Start Ethereum peer node
 
 In another terminal 
 
+~~~
 ==> tail -f strongEth.log
+~~~
 
 
 In the geth Javascript console 
@@ -49,11 +51,13 @@ Add another peer
 
 Launch the 2nd peer on a different port 
 
+~~~
 ==> geth --datadir ./peerDataDir --networkid 1114 --port 30304 console 2>> peerEth.log
+~~~
 
-
+~~~
 ==> tail -f peerEth.log 
-
+~~~
 
 In the 1st console
 
