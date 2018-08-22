@@ -1,0 +1,8 @@
+eth.coinbase
+eth.getBalance(eth.coinbase)
+minder.start()
+miner.start()
+eth.getBalance(eth.coinbase)
+admin.nodeInfo.enode
+admin.peers
+quit
